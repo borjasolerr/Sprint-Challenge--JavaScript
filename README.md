@@ -18,7 +18,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-You will notice there are several JavaScript files being brought into the index.html file.  Each of those files contain JavaScript problems you need to solve.  If you get stuck on something, skip over it and come back to it later.
+You will notice there are several JavaScript files being brought into the index.html file. Each of those files contain JavaScript problems you need to solve. If you get stuck on something, skip over it and come back to it later.
 
 In meeting the minimum viable product (MVP) specifications listed below, you should have a console full of correct responses to the problems given.
 
@@ -29,21 +29,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+   forEach Is a built-in iterator that performs for each 'item'/'value' a callback's body. It return: undefined.
+   .map() Is an iterator that performs a given funtionality passed as a callback on each 'item'/'value'. This method return a new array with the values returned by the callback.
 
 2. What is the difference between a function and a method?
+   Functions are objects taht are no tide to any other object, and methods are tied to another Object.
 
 3. What is closure?
+   A closure is what a function can have access to.
 
 4. Describe the four rules of the 'this' keyword.
+   A 'new' brand created Object. At Objects instantiation when the 'new' keyword is used.
+   An Object Explicitly when it invokes using either: .call, .bind or .apply
+   An Object Implicitly when it is invoked from this Object as a method with the 'dot' notations.
+   Global object (The window in browsers) when neither of the other cases is applied.
 
 5. Why do we need super() in an extended class?
+   Is the keyword that allow us to 'refer'/'call' the class from which is inherit.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+- [ ] Fork the project into your GitHub user account
+- [ ] Clone the forked project into a directory on your machine
+- [ ] Create a pull request before you start working on the project requirements. You will continuously push your updates throughout the project.
+- [ ] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
@@ -52,20 +61,28 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+
+Test your knowledge of objects and arrays.
+
+- [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started. Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+
+This challenge takes a look at callbacks and closures as well as scope.
+
+- [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
+
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+
+- [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
+
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+
+- [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
